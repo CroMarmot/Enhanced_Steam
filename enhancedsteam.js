@@ -543,6 +543,7 @@ var currencyConversion = (function() {
  * Gets the country code of store region.
  */
 function getStoreRegionCountryCode() {
+	return "CN";
 	var cc = "us",
 		cookies = document.cookie,
 		matched = cookies.match(/fakeCC=([a-z]{2})/i);
